@@ -1,27 +1,21 @@
 # mimich_skeletyl
 
-![mimich_skeletyl](imgur.com image replace me!)
+I did a hanwired skeletyl, this is the qmk and vial implementation that i ended up with. 
 
-*A short description of the keyboard/project*
+The keymap are all over the place as I'm still getting used to 36 keys. 
 
 * Keyboard Maintainer: [Lu](https://github.com/anothermimich)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: 2xAtmega32u4 using I2C
 
-Make example for this keyboard (after setting up your build environment):
+## Vial 
+Make example for this keyboard:
 
-    make mimich_skeletyl:default
+    make mimich_skeletyl:vial
 
 Flashing example for this keyboard:
 
-    make mimich_skeletyl:default:flash
-
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+    make mimich_skeletyl:vial:flash
 
 ## Bootloader
 
-Enter the bootloader in 3 ways:
-
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+* **Press [0,0] when plugin the keyboard**
