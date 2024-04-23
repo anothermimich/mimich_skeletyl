@@ -9,6 +9,7 @@
 #define VIAL_KEYBOARD_UID {0x7F, 0xA1, 0x8E, 0x0F, 0x0E, 0x74, 0x18, 0x1B}
 #define VIAL_UNLOCK_COMBO_ROWS {0, 0} 
 #define VIAL_UNLOCK_COMBO_COLS {0, 1} 
+#define VIAL_TAP_DANCE_ENTRIES 16
 
 // Firmware size reduction.
 
