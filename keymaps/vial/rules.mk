@@ -22,3 +22,4 @@ VIAL_ENABLE = yes          # Enables VIAL
 EXTRAFLAGS += -flto        # Enables Link Time Optimization
 UNICODE_ENABLE = no        # Unicode
 KEY_OVERRIDE_ENABLE = no   # Disable key override
+COMBO_ENABLE = no          # Disable combos
