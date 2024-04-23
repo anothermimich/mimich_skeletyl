@@ -1,4 +1,5 @@
-# Keymap Draw
+# parsed and updated from https://github.com/manna-harbour/miryoku_zmk/blob/master/config/microdox.keymap
+# uses MIRYOKU_KLUDGE_MOUSEKEYSPR and omits thumb combos and double tap guards to simplify
 layout:
   qmk_keyboard: boardsource/microdox/v1
 layers:
