@@ -1,0 +1,24 @@
+# Keymap Draw
+layout:
+  qmk_keyboard: boardsource/microdox/v1
+layers:
+  Base:
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - [{t: A, h: Gui}, {t: S, h: Alt}, {t: D, h: Control}, {t: F, h: Shift}, G, H, {t: J, h: Shift}, {t: K, h: Control}, {t: L, h: Alt}, {t: ';', h: Gui, s: ':'}]
+  - [Z, X, C, V, B, N, M, {t: ',', s: '<'}, {t: ., s: '>'}, {t: /, s: '?'}]
+  - [{t: Esc}, {t: Space, h: Nav}, {t: Tab, h: Sym}, {t: Enter, h: Num}, {t: Bckspc}, {t: Delete}]
+  Nav:
+  - ['','','','','','','','','','',]
+  - [Right, Down, Up, Left,'','', Left, Down, Up, Right]
+  - ['','','','','','','',Volume Down, Volume Up, Play]
+  - ['', {type: held},'','','','']
+  Sym:
+  - ['!','@','#','$','%','^','&','*','(',')',]
+  - ['`','~',"'",'"','','+','_','{','}','|',]
+  - ['','','','','','','','','','',]
+  - ['','', {type: held},'','','']
+  Num:
+  - ['1','2','3','4','5','6','7','8','9','0',]
+  - ['','','','','','=','-','[',']','\']
+  - ['','','','','','','','','','',]
+  - ['','','', {type: held},'','']
