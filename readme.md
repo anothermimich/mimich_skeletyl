@@ -1,6 +1,6 @@
 # mimich_skeletyl
 
-I did a hanwired skeletyl, this is the qmk and vial implementation that i ended up with. 
+I did a hanwired [Bastardkb Skeletyl](https://github.com/Bastardkb/Skeletyl/tree/main), this is the qmk and vial implementation that i ended up with. 
 
 The keymap are inspired in *??? sadly i forget the name of the original author*. 
 
@@ -29,7 +29,7 @@ Keyboard Maintainer: [Lu](https://github.com/anothermimich)
 
 ### Case
 
-The case was 3d printed using PETG, i opted for this material because PLA has a poor heat resistence and ABS was to expensive.
+The case files are in this [repo](https://github.com/Bastardkb/Skeletyl/tree/main). I 3d printed it using PETG, i opted for this material because PLA has a poor heat resistence and ABS was to expensive.
 
 ### Layout schematic
 
