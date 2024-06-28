@@ -1,6 +1,6 @@
 # mimich_skeletyl
 
-I did a hanwired [Bastardkb Skeletyl](https://github.com/Bastardkb/Skeletyl/tree/main), this is the qmk and vial implementation that i ended up with. 
+I did a hanwired [Skeletyl](https://github.com/Bastardkb/Skeletyl/tree/main), this is the qmk and vial implementation that i ended up with. 
 
 The keymap are inspired in [Miryoku](https://github.com/manna-harbour/miryoku).
 
