@@ -2,7 +2,7 @@
 
 I did a hanwired [Bastardkb Skeletyl](https://github.com/Bastardkb/Skeletyl/tree/main), this is the qmk and vial implementation that i ended up with. 
 
-The keymap are inspired in *??? sadly i forget the name of the original author*. 
+The keymap are inspired in [Miryoku](https://github.com/manna-harbour/miryoku).
 
 Keyboard Maintainer: [Lu](https://github.com/anothermimich)
 
@@ -82,4 +82,4 @@ Flashing example for this keyboard:
 
 I'm using a simplified keymap based on [Miryoku keymap](https://github.com/manna-harbour/miryoku). My take on the keymap still lacks some functions, if you decide to use it do it with the limitations in mind.
 
-  <img src="/other/keymap draw/keymap.svg" width="100%"/>
+  <img src="/other/keymap draw/keymap.svg" width="70%"/>
