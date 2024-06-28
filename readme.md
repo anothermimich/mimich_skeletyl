@@ -77,3 +77,12 @@ Make example for this keyboard (after setting up your build environment):
 Flashing example for this keyboard:
 
     make handwired/mimich_skeletyl:default:flash
+
+## Keymap
+
+I'm using a simplified keymap based on [Miryoku keymap](https://github.com/manna-harbour/miryoku). My take on the keymap still lacks some functions, if you decide to use it do it with the limitations in mind.
+
+<p float="center">
+  <img src="/other/keymap draw/keymap.svg" width="60%" />
+</p>
+
