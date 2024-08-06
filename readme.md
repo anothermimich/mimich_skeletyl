@@ -1,5 +1,14 @@
 # mimich_skeletyl
 
+<p float="center">
+  <img src="/other/img/img (1).jpg" width="48%" />
+  <img src="/other/img/img (2).jpg" width="48%" />
+  <img src="/other/img/img (4).jpg" width="48%" />
+  <img src="/other/img/img (5).jpg" width="48%" />
+  <img src="/other/img/img (3).jpg" width="96%" />
+</p>
+
+
 I did a hanwired [Skeletyl](https://github.com/Bastardkb/Skeletyl/tree/main), this is the qmk and vial implementation that i ended up with. 
 
 The keymap are inspired in [Miryoku](https://github.com/manna-harbour/miryoku).
