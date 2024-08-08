@@ -32,34 +32,23 @@ Keyboard Maintainer: [Lu](https://github.com/anothermimich)
 | M4 X D6.0 X L5.0 brass inserts        | 12        |
 | M4 8mm screws           | 12        |
 
-><sup>1</sup> This is a secret, the Outemu silent peach V2 is better in every way compared to this switch.
+><sup>1</sup> This is a secret, it seems that the Outemu silent peach V2 is better in every way compared to this switch.
 
 ## Making process
 
 ### Case
 
-The case files are in this [repo](https://github.com/Bastardkb/Skeletyl/tree/main). I 3d printed it using PETG, i opted for this material because PLA has a poor heat resistence and ABS was to expensive.
-
-### Layout schematic
-
-
-
-    ,-----------------------------.                             ,-----------------------------.
-    |     |     |     |     |     |                             |     |     |     |     |     |
-    |-----+-----+-----+-----+-----|                             |-----+-----+-----+-----+-----|
-    |     |     |     |     |     |                             |     |     |     |     |     |
-    |-----+-----+-----+-----+-----|                             |-----+-----+-----+-----+-----|
-    |     |     |     |     |     |                             |     |     |     |     |     |
-    |-----+-----+-----+-----+-----|                             |-----+-----+-----+-----+-----|
-    |     |     |     |     |     |                             |     |     |     |     |     |
-    `-----------------------------'                             `-----------------------------'   
-                            ,-----------------.     ,-----------------.
-                            |     |     |     |     |     |     |     |
-                            `-----------------'     `-----------------'
+The case files are in this [repo](https://github.com/Bastardkb/Skeletyl/tree/main). I 3d printed it using PETG, i opted for this material because PLA has a poor heat resistence and ABS was to expensive. The 3d print result is dog shit in every way. But as it cost 1/3 of the ABS to print and the main objective was test a new layout i'm kind of satisfied.
 
 ### Connecting the halves
 
 I used I2C to connect the halves, using `GND, VCC, 2, 3` on both pro micros. Between `VCC` and `2` and `VCC` and `3` i used 4.7kΩ pull-up resistors.
+
+## Keymap
+
+I'm using a simplified keymap based on [Miryoku keymap](https://github.com/manna-harbour/miryoku). My take on the keymap still lacks some functions. If you decide to use it do it with the limitations in mind, the keymap file is in the folder named [other](https://github.com/anothermimich/mimich_skeletyl/tree/main/other).
+
+  <img src="/other/keymap draw/keymap.svg" width="100%"/>
 
 ## Flashing
 
@@ -87,8 +76,4 @@ Flashing example for this keyboard:
 
     make handwired/mimich_skeletyl:default:flash
 
-## Keymap
 
-I'm using a simplified keymap based on [Miryoku keymap](https://github.com/manna-harbour/miryoku). My take on the keymap still lacks some functions, if you decide to use it do it with the limitations in mind.
-
-  <img src="/other/keymap draw/keymap.svg" width="70%"/>
