@@ -5,7 +5,7 @@
   <img src="/other/img/img (2).jpg" width="48%" />
   <img src="/other/img/img (4).jpg" width="48%" />
   <img src="/other/img/img (5).jpg" width="48%" />
-  <img src="/other/img/img (3).jpg" width="96%" />
+  <img src="/other/img/img (3).jpg" width="96.5%" />
 </p>
 
 
